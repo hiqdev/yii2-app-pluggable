@@ -1,32 +1,56 @@
 {
-    "name": "yiisoft/yii2-app-advanced",
-    "description": "Yii 2 Advanced Project Template",
-    "keywords": ["yii2", "framework", "advanced", "project template"],
-    "homepage": "http://www.yiiframework.com/",
+    "name": "hiqdev/yii2-app-pluggable",
     "type": "project",
+    "description": "Yii 2 Pluggable Project Template",
+    "keywords": [
+        "yii2",
+        "pluggable",
+        "project template"
+    ],
+    "homepage": "https://hiqdev.com/yii2-app-pluggable",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/yii2-app-pluggable",
+        "issues": "https://github.com/hiqdev/yii2-app-pluggable/issues",
+        "wiki": "https://github.com/hiqdev/yii2-app-pluggable/wiki",
+        "forum": "https://forum.hiqdev.com/yii2"
     },
-    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "silverfire@hiqdev.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "tafid@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": ">=2.0.4",
-        "yiisoft/yii2-bootstrap": "*",
-        "yiisoft/yii2-swiftmailer": "*"
+        "hiqdev/yii2-menumanager": "*@dev",
+        "hiqdev/yii2-thememanager": "*@dev"
     },
+    "autoload": [],
+    "minimum-stability": "dev",
     "require-dev": {
-        "yiisoft/yii2-codeception": "*",
-        "yiisoft/yii2-debug": "*",
-        "yiisoft/yii2-gii": "*",
-        "yiisoft/yii2-faker": "*"
-    },
-    "config": {
-        "process-timeout": 1800
+        "yiisoft/yii2-debug": "*"
     },
     "extra": {
         "asset-installer-paths": {
